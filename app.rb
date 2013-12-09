@@ -12,5 +12,12 @@ module StudentSite
 
     	erb :hello
     end
+
+    get '/artists' do
+    	@artists = ['Picasso', 'Monet', 'Rembrandt']
+
+    	erb :artists
+    end
+
   end
 end
