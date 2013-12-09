@@ -6,5 +6,9 @@ module StudentSite
     get '/' do
       "hello world!"
     end
+
+    get '/hello-world' do
+    	erb :hello
+    end
   end
 end
